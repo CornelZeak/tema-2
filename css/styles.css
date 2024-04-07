@@ -152,7 +152,7 @@
 }
 
 .main-content {
-  font-family: var("Roboto", sans-serif);
+  font-family: var(--main-font);
   line-height: 16px;
   letter-spacing: 0.03em;
   text-align: center;
@@ -165,7 +165,7 @@
 }
 .main-content__what-we-do h2 {
   text-align: center;
-  size: 36px;
+  font-size: 36px;
   padding: 40px;
 }
 .main-content__our-team {
@@ -175,11 +175,11 @@
 }
 .main-content__our-team span {
   font-size: 16px;
-  font-weight: 500px;
+  font-weight: 500;
   color: var(--black);
 }
 .main-content__our-team p {
-  font-weight: 400px;
+  font-weight: 400;
   color: var(--black-dark);
 }
 
@@ -213,12 +213,12 @@
 }
 
 .portofolio-content__box-list p {
-  font-weight: 500px;
+  font-weight: 500;
   font-size: 16px;
   color: var(--black-dark);
 }
-.portofolio-content__box-list span {
-  font-weight: 700px;
+.portofolio-content__box-list h2 {
+  font-weight: bold 700;
   font-size: 18px;
   color: var(--black);
 }
