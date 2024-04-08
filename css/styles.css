@@ -14,6 +14,7 @@
   font-weight: 400;
   color: var(--black);
 }
+
 /*header section*/
 .header-section {
   width: 1600px;
@@ -42,7 +43,6 @@
 /*header section left block*/
 .header-section__left-block {
   text-decoration: none;
-  color: var(--black);
   display: inline-flex;
   flex-direction: row;
   padding-left: 50px;
@@ -63,7 +63,7 @@
   list-style: none;
   font-size: 14px;
   font-weight: 500;
-  line-height: 16.41px;
+  line-height: 16px;
   letter-spacing: 0.02em;
   text-align: left;
   padding-bottom: 10px;
@@ -152,7 +152,6 @@
 }
 
 .main-content {
-  font-family: var(--main-font);
   line-height: 16px;
   letter-spacing: 0.03em;
   text-align: center;
@@ -176,17 +175,18 @@
 .main-content__our-team span {
   font-size: 16px;
   font-weight: 500;
-  color: var(--black);
 }
 .main-content__our-team p {
   font-weight: 400;
-  color: var(--black-dark);
 }
-
+/*portofolio-site-section*/
+.portofolio-site-section {
+  font-family: var(--main-font);
+  color: var(--black);
+  font-weight: 400;
+}
 /*portofolio section*/
 .portofolio-content {
-  font-style: var(--main-font);
-  font-family: Roboto;
   font-size: 16px;
   font-weight: 500;
   text-align: center;
@@ -205,6 +205,7 @@
 }
 .menu-portofolio:focus {
   color: var(--white);
+  background-color: var(--blue);
 }
 
 .menu-list-portofolio:hover {
@@ -218,9 +219,8 @@
   color: var(--black-dark);
 }
 .portofolio-content__box-list h2 {
-  font-weight: bold 700;
+  font-weight: 700;
   font-size: 18px;
-  color: var(--black);
 }
 /*footer-section*/
 .basement-section {
